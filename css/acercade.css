@@ -1,0 +1,60 @@
+body {
+  background-color: #DAF7A6 ;
+  
+}
+  header {
+    background-color: #F4D03F;
+  }
+  
+  nav {
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f1eaea;
+    color: black;
+  }
+
+  
+
+  #tabla-precios {
+    width: 80%;
+    margin: 20px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #tabla-precios table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #tabla-precios th, #tabla-precios td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  footer{
+    text-align: center;
+  }
